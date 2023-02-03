@@ -1,42 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.atguigu.gulimall</groupId>
+    <groupId>com.ati.gulimall</groupId>
     <artifactId>gulimall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall</name>
-    <description>谷粒商城-聚合服务</description>
     <packaging>pom</packaging>
+    <description>聚合项目</description>
 
     <modules>
-        <module>gulimall-coupon</module>
+        <module>gulimall-product</module>
         <module>gulimall-member</module>
         <module>gulimall-order</module>
-        <module>gulimall-product</module>
+        <module>gulimall-coupon</module>
         <module>gulimall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>gulimall-common</module>
     </modules>
-    
-    <repositories>
-        <repository>
-            <id>aliyun</id>
-            <name>aliyun-maven</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://maven.aliyun.com/repository/spring</url>
-        </repository>
-        <repository>
-            <id>central</id>
-            <name>maven-central</name>
-            <url>http://central.maven.org/maven2/</url>
-        </repository>
-        <repository>
-            <id>spring-snapshots</id>
-            <url>https://repo.spring.io/libs-snapshot</url>
-        </repository>
-    </repositories>
-    
 </project>
